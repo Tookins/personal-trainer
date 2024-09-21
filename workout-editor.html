@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=screen-width, scale=1.0">
+		<link rel="stylesheet" href="styles.css">
+		<title>Workout Editor</title>
+	</head>
+	<body>
+		<h1>Workout Editor</h1>
+		<form id="exercise-input">
+			<p>exercise: </p>
+			<input class="exercise-name">
+			<p>sets: </p>
+			<input class="set-number" type="number" min="0">
+			<input class="rep-number" type="number" min="0">
+		</form>
+		<div id="workout-text" class="workout-text">exercise: </div>
+		<button class="add-exercise">Add Exercise</button>
+		<button class="save-workout">Save Workout</button>
+		<script src="editor-script.js"></script>
+	</body>
+</html>
